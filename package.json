@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-fear-greed",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An MCP server for mcp-server-fear-greed",
   "type": "module",
   "main": "./dist/server.cjs",
@@ -22,17 +22,18 @@
     "test:watch": "vitest --watch"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
     "mcp-http-server": "^1.1.5",
-    "@modelcontextprotocol/sdk": "^1.12.1"
+    "user-agents": "^1.1.605"
   },
   "devDependencies": {
-    "commander": "^13.1.0",
-    "tsx": "^4.19.3",
     "@rslib/core": "0.5.3",
-    "zod": "^3.23.8",
-    "shx": "^0.3.4",
-    "vitest": "^3.0.7",
     "@types/node": "^20.11.24",
-    "typescript": "^5.7.3"
+    "commander": "^13.1.0",
+    "shx": "^0.3.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7",
+    "zod": "^3.23.8"
   }
 }

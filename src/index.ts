@@ -6,8 +6,8 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { createServer } from './server.js';
 
 program
-  .name(process.env.NAME || 'mcp-server-{{name}}')
-  .description(process.env.DESCRIPTION || 'MCP server for {{name}}')
+  .name(process.env.NAME || 'mcp-server-fear-greed')
+  .description(process.env.DESCRIPTION || 'MCP server for Fear and Greed Index')
   .version(process.env.VERSION || '0.0.1')
   .option(
     '--host <host>',
@@ -31,7 +31,7 @@ program
         const server = await createServer();
         const transport = new StdioServerTransport();
         await server.connect(transport);
-        console.debug('{{name}} MCP Server running on stdio');
+        console.debug('fear-greed MCP Server running on stdio');
       }
     } catch (error) {
       console.error('Error: ', error);
