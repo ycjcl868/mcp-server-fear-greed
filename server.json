@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.ycjcl868/mcp-server-fear-greed",
+  "description": "An MCP server for mcp-server-fear-greed",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/ycjcl868/mcp-server-fear-greed",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "registry_base_url": "https://registry.npmjs.org",
+      "identifier": "mcp-server-fear-greed",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environment_variables": []
+    }
+  ]
+}

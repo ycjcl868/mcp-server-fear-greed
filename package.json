@@ -1,8 +1,9 @@
 {
   "name": "mcp-server-fear-greed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An MCP server for mcp-server-fear-greed",
   "type": "module",
+  "mcpName": "io.github.ycjcl868/mcp-server-fear-greed",
   "main": "./dist/server.cjs",
   "module": "./dist/server.js",
   "types": "./dist/server.d.ts",

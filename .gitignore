@@ -4,3 +4,4 @@ build/
 .env*
 .claude/
 dist/
+.mcp*_token
